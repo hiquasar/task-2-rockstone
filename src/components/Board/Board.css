@@ -1,0 +1,23 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 193, 193);
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    margin: 10px;
+
+    border: 2px solid rgb(168, 163, 163);
+    border-radius: 3px;
+}
+
+.cell {
+    border: 1px solid #333;
+}
+
+.painted-cell {
+    background-color: rgba(12, 41, 31, 0.925);
+}
